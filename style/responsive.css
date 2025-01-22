@@ -40,38 +40,38 @@
     }
     .right-header img{
     
-       max-width: 100%;
-      /* height: auto;  */
-      margin: auto;
-       /* display: block;  */
+      max-width: 90%;
+      margin: 0 auto;
     }
     /* curriculum responsive start here */
     .card-section{
-      max-width: 100%;
-      margin: auto;
-      padding: 0 30px;
+      max-width: 90%;
+      margin: 0 auto;
       grid-template-columns: repeat(1, 1fr);
     }
     .radius-btn{
-      margin-top: 30px;
+      display: none;
     }
     /* footer responsive */
     .all-footer-content{
       
       grid-template-columns: 1fr;
       gap: 30px;
-      width: 100%;
-      padding: 30px; 
+      max-width: 90%;
+      margin: 0 auto; 
       }
     .stories-card-section{
       grid-template-columns: 1fr;
     }
+  
     .part-1{
       
       display: none;
     }
     .small-section{
-      padding: 10px;
+      /* padding: 10px; */
+      max-width: 90%;
+      margin: 0 auto;
     }
       
       
