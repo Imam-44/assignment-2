@@ -63,6 +63,16 @@
       width: 100%;
       padding: 30px; 
       }
+    .stories-card-section{
+      grid-template-columns: 1fr;
+    }
+    .part-1{
+      
+      display: none;
+    }
+    .small-section{
+      padding: 10px;
+    }
       
       
      

@@ -103,7 +103,7 @@ li {
   
 }
 /* hr end here */
-/* main style start here */
+
 
 /* header style start here */
 .header{
@@ -138,17 +138,15 @@ li {
 }
 /* header end here */
 /* main style start here */
-/* main{
-  background-image: url(../images/bg.png);
-  background-attachment: fixed;
-  object-fit: cover;
-} */
+  .main{
+    /* background-image: url(../images/bg.png); */
+  }
 /* curriculum section style start here */
 .curriculum{
   max-width: 1160px;
   margin: 0 auto;
   background-image: url(../images/bg.png);
-
+  background-repeat: repeat-y;
 }
 .section-title{
   text-align: center;
@@ -238,7 +236,7 @@ li {
 /* footer style start here */
 .footer-section{
   background-color: #01ACFD;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   min-height: 70vh;
   width: 100%;
   display: flex;
@@ -295,4 +293,76 @@ li {
 .foot-icon{
  
   cursor: pointer;
+}
+
+/* stories section style here */
+.stories{
+  background: url(../images/bg.png), linear-gradient(#fff,#f9e5c1c3, #f9e3b9c3, #fbd99ec3, #f6daabb9, #f6d499ef);
+  background-repeat: repeat-x;
+}
+.stories-card-section{
+ 
+  max-width: 1160px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.small-section{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 10px;
+}
+.stories-card-btn{
+  max-width: 170px;
+  height: 47.93px;
+  padding: 0 20px;
+  border-radius: 47.93px;
+  background-color: #3CD8E8;
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  top: -30px;
+  left: 40px;
+}
+.stories-card{
+  margin-bottom: 30px;
+}
+.part-1 {
+
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  
+}
+.stories-small-img img {
+  width: 100%;
+}
+       
+.written-content{
+ padding: 20px;
+}
+
+.stories-small-card{
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.num-1{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.small-card-title{
+  padding: 20px;
+}
+.btn-1{
+  background-color: #95B226;
+}
+.btn-2{
+  background-color: #5D58F0;
+}
+.btn-3{
+  background-color: rgb(251, 181, 50);
 }
