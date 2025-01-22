@@ -137,10 +137,8 @@ li {
   margin-top: 10px;
 }
 /* header end here */
-/* main style start here */
-  .main{
-    /* background-image: url(../images/bg.png); */
-  }
+
+
 /* curriculum section style start here */
 .curriculum{
   max-width: 1160px;
@@ -297,9 +295,12 @@ li {
 
 /* stories section style here */
 .stories{
-  background: url(../images/bg.png), linear-gradient(#fff,#f9e5c1c3, #f9e3b9c3, #fbd99ec3, #f6daabb9, #f6d499ef);
-  background-repeat: repeat-x;
+  
+  background: url(../images/bg.png), linear-gradient(#fff,#f9e5c1c3, #fde4b6c3, #fbd99ec3, #fbd490b9, #fbe8c6e4);
+
+
 }
+
 .stories-card-section{
  
   max-width: 1160px;
@@ -326,10 +327,9 @@ li {
   position: relative;
   top: -30px;
   left: 40px;
+  cursor: pointer;
 }
-.stories-card{
-  margin-bottom: 30px;
-}
+
 .part-1 {
 
   border-radius: 16px;
@@ -343,7 +343,7 @@ li {
 }
        
 .written-content{
- padding: 20px;
+ padding: 0 20px;
 }
 
 .stories-small-card{
@@ -355,7 +355,7 @@ li {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .small-card-title{
-  padding: 20px;
+  padding: 0 10px;
 }
 .btn-1{
   background-color: #95B226;
@@ -365,4 +365,9 @@ li {
 }
 .btn-3{
   background-color: rgb(251, 181, 50);
+}
+.view-btn{
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 95px;
 }
