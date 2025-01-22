@@ -138,14 +138,17 @@ li {
 }
 /* header end here */
 /* main style start here */
-main{
-  background-image: url(/images/bg.png);
-}
+/* main{
+  background-image: url(../images/bg.png);
+  background-attachment: fixed;
+  object-fit: cover;
+} */
 /* curriculum section style start here */
 .curriculum{
   max-width: 1160px;
   margin: 0 auto;
   background-image: url(../images/bg.png);
+
 }
 .section-title{
   text-align: center;
@@ -215,6 +218,23 @@ main{
   color: #8700FF;
 }
 
+/* radius btn style */
+.curriculum-btn{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.radius-btn{
+ width: 60px;
+ height: 60px;
+ border-radius: 50%;
+ border: none;
+ background-color: orange;
+ color: white;
+ font-size: 25px;
+ cursor: pointer;
+ 
+}
 /* responsive start here */
 @media screen and (max-width: 576px) {
   
@@ -268,5 +288,8 @@ main{
     margin: auto;
     padding: 0 30px;
     grid-template-columns: repeat(1, 1fr);
+  }
+  .radius-btn{
+    margin-top: 30px;
   }
 }
